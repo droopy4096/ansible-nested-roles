@@ -1,4 +1,0 @@
----
-
-- name: Role A/install task
-  file: path=/etc/motd state=file
