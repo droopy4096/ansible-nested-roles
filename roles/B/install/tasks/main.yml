@@ -1,0 +1,7 @@
+---
+
+- name: Role B/install task
+  file: path=/etc/motd state=file
+
+- name: Role B/install attack
+  shell: echo "Hello {{ world }}"

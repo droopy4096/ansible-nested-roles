@@ -1,0 +1,11 @@
+---
+
+- hosts: ahost
+  roles:
+  - role: A/install
+
+- hosts: bhost
+  roles:
+  - role: B
+  - role: B/install
+

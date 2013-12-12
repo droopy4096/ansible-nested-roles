@@ -1,0 +1,10 @@
+---
+
+- hosts: ahost
+  roles:
+  - role: A/config
+
+- hosts: bhost
+  roles:
+  - role: B/config
+

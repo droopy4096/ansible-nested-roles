@@ -1,0 +1,4 @@
+---
+
+- name: Role A/config task
+  file: path=/etc/motd state=file
